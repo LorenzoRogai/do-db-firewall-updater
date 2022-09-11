@@ -5,4 +5,6 @@ A simple PHP script to keep Digital Ocean Database Firewall up to date with your
 
 Add the following rule inside your crontab
 
+```
 * * * * * root php /home/pi/do-db-firewall-updater.php
+```
